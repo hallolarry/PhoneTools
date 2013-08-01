@@ -88,6 +88,55 @@ public class SMSHelper {
 		return smsBuilder.toString();
 	}
 
+	public static int delete(Context ctx, String[] tags) {
+		int count = 0;
+		try {
+			Uri uri = Uri.parse(SMS_URI_ALL);
+			String[] projection = new String[] { "_id", "thread_id", "address",
+					"date" };
+
+			ContentResolver cr = ctx.getContentResolver();
+			Cursor cur = cr.query(uri, projection, null, null, "date desc"); // 获取手机内部短信
+
+			if (cur.moveToFirst()) {
+				int indexID = cur.getColumnIndex("_id");
+				int indexThreadID = cur.getColumnIndex("thread_id");
+				int indexAddress = cur.getColumnIndex("address");
+
+				do {
+					Long id = cur.getLong(indexID);
+					Long threadID = cur.getLong(indexThreadID);
+					String address = cur.getString(indexAddress);
+					if (!stringInArray(tags, address)) {
+						int c = cr.delete(uri, "thread_id=?",
+								new String[] { String.valueOf(threadID) });
+						count += c;
+					}
+				} while (cur.moveToNext());
+
+				if (!cur.isClosed()) {
+					cur.close();
+					cur = null;
+				}
+			} else {
+			} // end if
+
+		} catch (SQLiteException ex) {
+			Log.d("SQLiteException in getSmsInPhone", ex.getMessage());
+		}
+
+		return count;
+	}
+
+	private static boolean stringInArray(String[] array, String tag) {
+		for (String s : array) {
+			if (tag.indexOf(s) >= 0) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	/*
 	 * Delete all SMS one by one
 	 */

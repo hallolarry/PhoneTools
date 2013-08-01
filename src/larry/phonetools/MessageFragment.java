@@ -42,7 +42,7 @@ public class MessageFragment extends Fragment {
 
 	private void deleteMessage(String filter) {
 		String[] tags = filter.split(",");
-		SMSHelper.deleteSMS(getActivity(), tags);
+		SMSHelper.delete(getActivity(), tags);
 		Log.d(TAG, tags.length + "");
 	}
 }
