@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dk_text_default">#B8B8B8</color>
+    <color name="dk_text_button">#B8B8B8</color>
+    <color name="dk_text_top_bar_title">#F0F0F0</color>
+    <color name="dk_text_tips">#1D1D1D</color>
+    <color name="dk_text_gua_normal">#df6139</color>
+    <color name="dk_text_gua_good">#ff0101</color>
+    <color name="dk_text_gua_bad">#17904b</color>
+    <color name="dk_text_gua_name">#C4C4C4</color>
+    <color name="dk_bg_window">#242625</color>
+    <color name="dk_yao_color">#FCFBFF</color>
+    <color name="dk_yao_change">#ff0101</color>
+    <color name="dk_bg_grid_item">#444444</color>
+    <color name="dk_bg_list_group">#00FFFFFF</color>
+    <color name="dk_bg_list_child">#444444</color>
+    <color name="dk_bg_pager_title">#696969</color>
+    <color name="dk_text_pager_title">#FCFBFF</color>
+
+</resources>

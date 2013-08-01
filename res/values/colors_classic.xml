@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cl_text_default">#6D6E66</color>
+    <color name="cl_text_button">#000000</color>
+    <color name="cl_text_top_bar_title">#49B8ED</color>
+    <color name="cl_text_tips">#3C3C3C</color>
+    <color name="cl_text_gua_normal">#df6139</color>
+    <color name="cl_text_gua_good">#ff0101</color>
+    <color name="cl_text_gua_bad">#17904b</color>
+    <color name="cl_text_gua_name">#ff0101</color>
+    <color name="cl_bg_window">#00000000</color>
+    <color name="cl_yao_color">#000000</color>
+    <color name="cl_yao_change">#ff0101</color>
+    <color name="cl_bg_grid_item">#33CCCCCC</color>
+    <color name="cl_bg_list_group">#00000000</color>
+    <color name="cl_bg_list_child">#DBB688</color>
+    <color name="cl_text_pager_title">#CCCCCC</color>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+
+    <!--
+         Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels.
+    -->
+    <declare-styleable name="GuaView">
+        <attr name="color" format="color" />
+        <attr name="colorChange" format="color" />
+        <attr name="colorText" format="color" />
+        <attr name="cellW" format="dimension" />
+        <attr name="cellH" format="dimension" />
+        <attr name="index" format="reference" />
+        <attr name="name" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="textColorDefault" format="reference" />
+        <attr name="backgroundWindow" format="reference" />
+        <attr name="backgroundFragment" format="reference" />
+        <attr name="startLine" format="reference" />
+        <attr name="textColorButton" format="reference" />
+        <attr name="backgroundButton" format="reference" />
+        <attr name="backgroundTopBar" format="reference" />
+        <attr name="textColorTopBarTitle" format="reference" />
+        <attr name="iconBack" format="reference" />
+        <attr name="backgroundGridItem" format="reference" />
+        <attr name="backgroundListGroup" format="reference" />
+        <attr name="backgroundListChild" format="reference" />
+        <attr name="backgroundPagerTitle" format="reference" />
+        <attr name="textColorPagerTitle" format="reference" />
+    </declare-styleable>
+
+</resources>

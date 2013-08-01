@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_desc">清理规则</string>
+    <string name="message_hint">输入发送人号码前缀</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lt_text_default">#6D6E66</color>
+    <color name="lt_text_button">#000000</color>
+    <color name="lt_text_top_bar_title">#353535</color>
+    <color name="lt_text_tips">#3C3C3C</color>
+    <color name="lt_text_gua_normal">#df6139</color>
+    <color name="lt_text_gua_good">#ff0101</color>
+    <color name="lt_text_gua_bad">#17904b</color>
+    <color name="lt_text_gua_name">#ff0101</color>
+    <color name="lt_bg_window">#E9E9E9</color>
+    <color name="lt_yao_color">#000000</color>
+    <color name="lt_yao_change">#ff0101</color>
+    <color name="lt_bg_grid_item">#33CCCCCC</color>
+    <color name="lt_bg_list_group">#00FFFFFF</color>
+    <color name="lt_bg_list_child">#33CCCCCC</color>
+    <color name="lt_text_pager_title">#FAFAFA</color>
+    
+    <color name="lt_pager_title">#808080</color>
+
+</resources>

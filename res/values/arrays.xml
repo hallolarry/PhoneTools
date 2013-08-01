@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme">
+        <item>现代主题</item>
+        <item>古典主题</item>
+        <item>暗黑主题</item>
+    </string-array>
+
+</resources>

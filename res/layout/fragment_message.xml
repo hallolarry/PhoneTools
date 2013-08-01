@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Fragment" >
+
+    <LinearLayout
+        android:id="@+id/message_button_area"
+        style="@style/BottomContainer"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/message_button"
+            style="@style/Button.Bottom"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/message_button_area"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/Text.Content"
+            android:text="@string/message_desc" />
+
+        <EditText
+            android:id="@+id/message_edittext0"
+            style="@style/EditText.Content"
+            android:hint="@string/message_hint" />
+    </LinearLayout>
+
+</RelativeLayout>

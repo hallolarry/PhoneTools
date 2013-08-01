@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Fragment"
+    tools:context=".HomeFragment" >
+
+    <TextView
+        android:id="@+id/home_title"
+        style="@style/Text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/start_hint" />
+
+    <ImageView
+        android:id="@+id/home_title_line"
+        style="@style/Icon"
+        android:layout_below="@id/home_title"
+        android:layout_centerHorizontal="true"
+        android:src="?attr/startLine" />
+
+    <LinearLayout
+        android:id="@+id/home_buttons_bottom"
+        style="@style/BottomContainer"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/home_button_help"
+            style="@style/Button.Bottom"
+            android:onClick="showMessage"
+            android:text="@string/help" />
+
+        <Button
+            android:id="@+id/home_button_record"
+            style="@style/Button.Bottom"
+            android:onClick="showMessage" 
+            android:text="@string/recommend"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/home_button_eight"
+        style="@style/Ball"
+        android:layout_above="@id/home_buttons_bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="showMessage" />
+
+    <Button
+        android:id="@+id/home_button_number"
+        style="@style/Ball"
+        android:layout_above="@id/home_buttons_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="showMessage" />
+
+    <Button
+        android:id="@+id/home_button_shake"
+        style="@style/Button.Start"
+        android:layout_below="@id/home_title_line"
+        android:layout_centerHorizontal="true"
+        android:onClick="showMessage" />
+
+</RelativeLayout>

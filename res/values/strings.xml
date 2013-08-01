@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhoneTools</string>
+    <string name="start">开  始</string>
+    <string name="title_message">短信清理</string>
+    <string name="copyright">版权所有</string>
+    <string name="help">帮助说明</string>
+    <string name="feedback">反馈</string>
+    <string name="about">关于</string>
+    <string name="recommend">推荐</string>
+    <string name="commit">提交</string>
+    <string name="exit">退出程序</string>
+    <string name="start_hint">点击下方按钮开始</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="cancel">取消</string>
+    <string name="exit_tips">确定退出程序？</string>
+    <string name="ok">确定</string>
+    <string name="delete">删除</string>
+    <string name="op">操作选项</string>
+    <string name="delete_all">删除所有</string>
+    <string name="feedback_tips">将您的建议反馈给我们，以便我们更好地改进软件。</string>
+    <string name="feedback_hint_content">请输入您的建议</string>
+    <string name="feedback_hint_email">请输入您的联系方式,邮箱或者电话（选填）</string>
+</resources>
