@@ -265,7 +265,8 @@
     </style>
 
     <style name="EditText.Number">
-        <item name="android:inputType">number</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:singleLine">false</item>
         <item name="android:padding">10dp</item>
     </style>
 

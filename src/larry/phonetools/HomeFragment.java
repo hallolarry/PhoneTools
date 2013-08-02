@@ -18,6 +18,7 @@ public class HomeFragment extends Fragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
+		SMSHelper.showColumn(getActivity());
 	}
 
 	@Override
